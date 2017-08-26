@@ -7,9 +7,18 @@
 			<meta charset="UTF-8" />
 			<style type="text/css">
 
-				h2 {
+				.titulo-principal {
 					color: blue;
-					border: 1px solid green;
+					border: 2px solid green;
+				}
+
+				#toda-pagina {
+					border: 2px solid green;	
+				}
+
+				.conteudo {
+					color: blue;
+					border: 2px solid green;
 				}
 
 			
@@ -17,7 +26,7 @@
 	</head>
 
 	<body>
-		<table border="0" width="900" align="center">
+		<table border="0" width="900" align="center" id="toda-pagina">
 			
 			<tr>				
 				<td align="left">
@@ -36,17 +45,17 @@
 			</tr>
 			<tr>
 				<td colspan="2">
-					<h2>WELCOME TO MACHT DEVELOPER! WE ARE A SOFTWARE ENTERPRISE</h2>
+					<h2 class="titulo-principal">WELCOME TO MACHT DEVELOPER! WE ARE A SOFTWARE ENTERPRISE</h2>
 				</td>
 			</tr>
 			<tr>
-					<td colspan="2" style="border: 2px solid blue">
+					<td colspan="2" class="conteudo">
 						We develop any kind of software and IT service that you can imagine!
 					</td>
 			</tr>
 			<tr>
 				<td colspan="2">
-					<hr/>
+					<hr style="border: 1px solid green;"/>
 				</td>
 			</tr>
 		</table>

@@ -5,11 +5,30 @@
 	<head>
 			<title>Register</title>
 			<meta charset="UTF-8" />
+			<style type="text/css">
+				#all-page {
+					border: 1px solid green;
+				}
+				.titles {
+					color: blue;
+					border: 1px solid green;
+				}
+
+				#form {
+					color: blue;
+					font-weight: bold;
+					border: 1px solid green;	
+				}
+				.dividers {
+					border: 1px solid green;
+				}
+
+			</style>
 	</head>
 
 	<body>
 
-		<table border="0" align="center" width="900">
+		<table border="0" align="center" width="900" id="all-page">
 			<tr>
 				<td align="left">
 					<img src="macht.png" width="20%" height="5%" />
@@ -27,14 +46,14 @@
 			</tr>
 			<tr>
 				<td>
-					<h1>
+					<h1 class="titles">
 						Register
 					</h1>
 				</td>
 			</tr>
 			<tr>
 				<td colspan="2">
-					<form>
+					<form id="form">
 						E-mail:<br />
 						<input type="text" name="email"/><br /><br />
 			
@@ -66,13 +85,14 @@
 							<textarea>
 							</textarea><br /><br />
 
-						<input type="submit" value="Register" />
+						<input type="submit" value="Register"/>
+
 					</form>
 				</td>
 			</tr>
 			<tr>
 				<td  colspan="2">
-					<hr />
+					<hr class="dividers" />
 				</td>
 			</tr>
 		</table>

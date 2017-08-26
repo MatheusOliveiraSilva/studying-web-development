@@ -4,15 +4,40 @@
 	<head>
 		<title>About us</title>
 		<meta charset="UTF-8" />
+		<style type="text/css">
+
+			#all-page {
+					border: 2px solid green;
+			}
+			.titles {
+				color: blue;
+				border: 1px solid green;
+			}
+
+			.dividers {
+				border: 1px solid green
+			}
+
+			.content {
+				color: blue;
+				border: 1px solid green;
+			}
+			img {
+				border: 1px solid green;
+			}
+
+
+			</style>
+
 	</head>
 
 	<body>
-		<table border="0" width="900" align="center">
+		<table border="0" width="900" align="center" id="all-page">
 			<tr colspan="2">
 				<td align="left">
 					<img src="macht.png" width="20%" height="5%"/>
 				</td>
-				<td width="500px" align="right">
+				<td width="500px" align="right"">
 					<a href="home.html">Home</a>
 					<a href="">About us</a>
 					<a href="contacts.html">Contacts</a>
@@ -25,41 +50,41 @@
 			</tr>
 			<tr>
 				<td>
-					<h2>
+					<h2 class="titles">
 						About the Enterprise
 					</h2>
 				</td>
 			</tr>
 			<tr>
 				<td>
-					This is a <strong>software</strong> enterprise called Macht
+					<p class="content">This is a <strong>software</strong> enterprise called Macht</p>
 				</td>
 			</tr>
 			<tr>
 				<td colspan="2">
-					<hr />
+					<hr class="dividers" />
 				</td>
 			</tr>
 			<tr>
 				<td>
-					<h2>
+					<h2 class="titles">
 						The Meaning of the Name
 					</h2>
 				</td>
 			</tr>
 			<tr>
 				<td colspan="2">
-					The name <strong>MACHT</strong> means <strong>POWER</strong>, <strong>MACHT</strong> is  a german word!
+					<p class="content">The name <strong>MACHT</strong> means <strong>POWER</strong>, <strong>MACHT</strong> is  a german word!</p>
 				</td>
 			</tr>
 			<tr>
 				<td colspan="2"> 
-					<hr />
+					<hr class="dividers"/>
 				</td>
 			</tr>
 			<tr>
 				<td>
-					<h2>
+					<h2 class="titles">
 						Our Logo
 					</h2>
 				</td>
@@ -71,7 +96,7 @@
 			</tr>
 			<tr>
 				<td colspan="2">
-					<hr />
+					<hr  class="dividers"/>
 				</td>
 			</tr>
 	</body>

@@ -5,11 +5,34 @@
 	<head>
 			<title>Products</title>
 			<meta charset="UTF-8" />
+			<style type="text/css">
+
+				#all-page {
+					border: 1px solid green;
+				}
+				.titles {
+					color: blue;
+					border: 1px solid green;
+					width: 1000px ;
+					font-size: 30px;
+				}
+
+				li {
+					color: blue;
+					border: 1px solid green;	
+					font-size: 20px;
+				}
+
+				.dividers {
+						border: 1px solid green;
+				}
+
+			</style>
 	</head>
 
 	<body>
 
-		<table border="0" width="900" align="center">
+		<table border="0" width="900" align="center" id="all-page">
 			<tr>
 				<td align="left"><img src="macht.png" width="20%" height="5%" />
 				</td>
@@ -24,8 +47,8 @@
 				<a href="sign-in.html">Sign In</a>
 			</tr>
 			<tr>
-				<td>
-					<h2>Products</h2>
+				<td colspan="2">
+					<h2 class="titles">Products</h2>
 				</td>
 			</tr>
 			<tr>
@@ -39,7 +62,7 @@
 			</tr>
 			<tr>
 				<td colspan="2">
-					<hr />
+					<hr class="dividers" />
 				</td>
 			</tr>
 		</table>

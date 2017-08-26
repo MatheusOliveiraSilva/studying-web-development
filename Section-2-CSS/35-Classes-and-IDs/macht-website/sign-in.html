@@ -5,11 +5,32 @@
 	<head>
 			<title>Sign in</title>
 			<meta charset="UTF-8" />
+			<style type="text/css">
+					#all-page {
+						border: 1px solid green;
+					}
+					.titles {
+						color: blue;
+						border: 1px solid green;
+					}
+
+					#form {
+						border: 1px solid green;
+						color: blue;
+						font-weight: bold;
+						font-size: 18px;
+					}
+					.dividers {
+						border: 1px solid green;
+					}
+
+
+			</style>
 	</head>
 
 	<body>
 
-		<table border="0" align="center" width="900">
+		<table border="0" align="center" width="900" id="all-page">
 			<tr>
 				<td align="left">
 					<img src="macht.png" width="20%" height="5%"/>
@@ -27,26 +48,26 @@
 			</tr>
 			<tr>
 				<td colspan="2">
-					<h1>
+					<h1 class="titles">
 						Sign in here
 					</h1>
 				</td>
 			</tr>
 			<tr>
 				<td>
-					<form >
+					<form id="form">
 						E-mail:<br />
 						<input type="text" name="email"/><br />
 						Password:<br/>
 						<input type="password" name="password"/><br /><br />
 						<input type="submit" value="Enter" /><br />
-						<a href="register.html">Are you not registered? Create an account now!</a>
+						<a href="register.html" style="font-size:15px" >Are you not registered? Create an account now!</a>
 					</form>
 				</td>
 			</tr>
 			<tr>
 				<td colspan="2">
-					<hr />
+					<hr class="dividers"/>
 				</td>
 			</tr>
 		</table>

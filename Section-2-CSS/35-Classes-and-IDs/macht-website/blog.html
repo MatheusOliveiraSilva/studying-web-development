@@ -5,11 +5,28 @@
 	<head>
 			<title>Blog</title>
 			<meta charset="UTF-8" />
+			<style type="text/css">
+				#all-page {
+						border: 1px solid green;
+				}
+				.titles {
+					color: blue;
+					border: 1px solid green;
+				}
+
+				.content {
+					color: blue;
+					border: 1px solid green;
+				}
+				.dividers {
+					border: 1px solid green;
+				}
+			</style>
 	</head>
 
 	<body>
 
-		<table border="0" align="center" width="900">
+		<table border="0" align="center" width="900" id="all-page">
 			<tr>
 				<td align="left">
 					<img src="macht.png" width="20%" height="5%"" />
@@ -27,28 +44,28 @@
 			</tr>
 			<tr>
 				<td colspan="2">
-					<h1>
+					<h1 class="titles">
 						WELCOME TO OUR BLOG!
 					</h1>
 				</td>
 			</tr>
 			<tr>
 				<td colspan="2">
-					<h2>
+					<h2 class="titles">
 						Post #1 how to use special characters in HTML
 					</h2>
 				</td>
 			</tr>
 			<tr>
 				<td colspan="2">
-					<p>
+					<p class="content">
 						Sometimes we need to use some special characters that are part of the HTML syntax, to solve this problem we can use the HTML entities. The table below shows some kinds of special characters.
 					</p>
 				</td>
 			</tr>
 			<tr>
 				<td colspan="2">
-					<table border="1" width="30%" align="center">
+					<table border="1" width="30%" align="center" style="color:blue;">
 						<tr>
 							<th>Char</th>
 							<th>Entity</th>
@@ -109,7 +126,7 @@
 			</tr>
 			<tr>
 				<td colspan="2">
-					<p>
+					<p class="content">
 						Well, in table above we saw some of the HTML entities, has much more than this that we saw here, to see the complete table access this link: 
 						<a href="https://www.w3schools.com/charsets/ref_html_entities_4.asp">
 							https://www.w3schools.com/charsets/ref_html_entities_4.asp
@@ -119,25 +136,25 @@
 			</tr>
 			<tr>
 				<td>
-					<p>
+					<p class="content">
 						Thanks for your visit!! See you soon!
 					</p>
 				</td>
 			</tr>
 			<tr>
-				<td>
+				<td style="color: blue; border: 1px solid green;" class="content">
 					<b>About the author</b><br />
 					Matheus Oliveira da Silva is a software developer passionate<br />
 					about agile culture, web and mobile ecosystem.<br />
 					He writes for Macht every Friday. <br />
-					<a href="https://www.linkedin.com/in/matheus-oliveira-da-silva-37ba8a13b/">
+					<a href="https://www.linkedin.com/in/matheusoliveirasilva/">
 						Click here to accsses his linkedin
 					</a>
 				</td>
 			</tr>
 			<tr >
 				<td colspan="2" align="center">
-					<hr/>
+					<hr class="dividers"/>
 				</td>
 			</tr>
 		</table>
