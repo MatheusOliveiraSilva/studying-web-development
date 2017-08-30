@@ -1,0 +1,107 @@
+/*Clearing standard formatting*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 16px;
+	font-family: "Trebuchet MS", Helvetiva, sans-serif;
+	background: #F3F3F3;
+}
+
+#navigation {
+	background: #FFF;
+	border-bottom: 1px solid #D8D8D8;
+	height: 45px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+ 
+#area {
+	width: 720px;
+	margin: 0 auto;
+}
+
+#main-area {
+	width: 720px;
+	margin: 55px auto 10px auto;
+	height: 
+}
+
+
+#logo {
+	float: left;
+}
+
+#menu {
+	float: right;	
+	padding: 10px 0;
+}
+
+#post {
+	background:#FFF;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+
+h2 {
+	color: #B9C941;
+}
+
+
+/*********************
+Formatting of the menu
+*********************/
+
+a {
+	text-decoration: none;
+	padding: 5px 10px;
+}
+/*Unvisited links*/
+a:link {
+	color: #838383;
+}
+/*visited links*/
+a:visited {
+	color: #838383;
+}
+
+/*Links with hover*/
+a:hover {
+	color:#fff ;
+	background: #b9c941;
+}
+/*Active links*/
+a:active {
+	color: #535353;
+}
+
+
+/*Classes*/
+.green {
+	color: #B9C941;
+}
+
+.post-date {
+	font-size: 14px;
+	border-bottom: 1px solid #F4F4F4;
+	display: block;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.img-post {
+	float:left;
+	margin: 0 10px 5px 0;
+}
+
+.posted {
+	border-left: 5px solid #D8D8D8;
+	padding-left: 5px;
+	display: block;
+	margin-top:10px;
+}
