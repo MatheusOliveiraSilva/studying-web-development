@@ -4,8 +4,8 @@
   background: #B9C941;
   padding: 50px;
   box-sizing: border-box;
-  -webkit-box-sizing: border;
-  -moz-box-sizing: border;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
 
 
     /*border-radius: 100px;
