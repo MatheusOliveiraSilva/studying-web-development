@@ -25,7 +25,7 @@ function iniciaJogo() {
 
  	//imprimir qtde balões inteiros
  	document.getElementById('baloes_inteiros').innerHTML = qtde_baloes;
- 	 	document.getElementById('baloes_estourados').innerHTML = 0; 
+ 	document.getElementById('baloes_estourados').innerHTML = 0; 
 
  }
 
