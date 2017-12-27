@@ -1,1 +1,0 @@
-alert("HY, I AM A EXTERNAL JAVASCRIPT MESSAGE! I'M FROM my_javascript.js ;D")
