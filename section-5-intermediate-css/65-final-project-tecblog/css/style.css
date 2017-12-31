@@ -1,0 +1,61 @@
+/* Clear Formatting*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 16px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #f3f3f3;
+}
+
+#navigation {
+	background: #fff;
+	border-bottom: solid 1px #d8d8d8;
+	height: 45px;
+}
+
+#area {
+	width: 720px;
+	margin: 0 auto;
+}
+
+#logo {
+	float: left;
+}
+
+#menu {
+	float: right;
+ 	padding: 10px 0;
+}
+
+/******************************************************
+ formatting menu*******************************************************/
+a {
+	text-decoration: none;
+	padding: 5px 10px;
+}
+/*unvisited links*/
+a:link{
+	color: #838383;
+}
+
+/*visited links*/
+a:visited{
+	color: #838383;
+}
+
+/*links hover*/
+a:hover {
+	background: #b9c941;
+	color: #fff;
+}
+/*links active*/
+
+
+/*classes*/
+.green {
+	color: #d9c941;
+}
