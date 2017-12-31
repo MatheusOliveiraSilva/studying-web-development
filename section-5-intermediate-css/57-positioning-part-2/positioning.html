@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Floating Elements</title>
+		<meta charset="utf-8">
+
+		<style type="text/css">
+			
+			body {
+				background: #61bd8c;
+			}
+
+			#main-content{
+				background: #fff;
+				padding: 10px;
+				width: 600px;
+				height: 2500px;
+				margin: 30px auto;	
+				margin-top: 130px;	
+				/*osition: relative;	*/
+			}
+
+
+			.box {
+				background: #1e6f44;
+				width: 100px;
+				height: 100px;
+				color: #fff;
+			}
+
+			#relative {
+				position: relative;
+				left: -30px;
+				top: 0px;
+				width: 660px;
+			}
+
+			#absolute {
+				position: absolute;
+				bottom: 0;				
+				right: 30px;
+
+			}
+
+			#fixed {
+				position: fixed;
+				top: 0;
+				left: 0;
+				width: 100%;
+				background: #000;
+			}
+		</style>
+	</head>
+	
+	<body >
+		
+		<div id="main-content">
+			<h1>Positioning</h1>
+
+			<h4>Relative</h4>
+			<div id="relative" class="box">Relative</div>
+
+			<h4>Absolute</h4>
+			<div id="absolute" class="box">Absolute</div>
+
+			<h4>Fixed</h4>
+			<div id="fixed" class="box">Fixed</div>
+
+		</div>
+
+		
+	
+
+	</body>
+
+</html>
